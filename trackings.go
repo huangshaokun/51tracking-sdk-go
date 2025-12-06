@@ -10,6 +10,7 @@ type CreateTrackingParams struct {
 	TrackingNumber             string `json:"tracking_number"`
 	CourierCode                string `json:"courier_code"`
 	OrderNumber                string `json:"order_number"`
+	ShippingDate               string `json:"shipping_date"`
 	OriginCountryIso2          string `json:"origin_country_iso2"`
 	DestinationCountryIso2     string `json:"destination_country_iso2"`
 	CustomerName               string `json:"customer_name"`
